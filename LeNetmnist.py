@@ -99,7 +99,7 @@ print(model.summary())
 
 # Training Parameters
 batch_size = 128
-epochs = 10
+epochs = 5
 
 history = model.fit(x_train, y_train,
           batch_size=batch_size,
@@ -134,7 +134,6 @@ accuracy=print(scores[1])
 
 
 
-# In[ ]:
 
 
 
