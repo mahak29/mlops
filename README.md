@@ -11,9 +11,9 @@ In these task I used
 - GitHub
 - Jenkins
 
-(Docker and Jenkins inside Virtual OS)
+(Docker and Jenkins inside Virtual OS RHEL8)
 
-#####So let's get into the jobs
+##### So let's get into the jobs
 
 1. Create container image that’s has Python3 and Keras or numpy  installed  using dockerfile 
 
@@ -32,3 +32,10 @@ In these task I used
 8. Job5: Retrain the model or notify that the best model is being created
 
 9. Create One extra job job6 for monitor : If container where app is running. fails due to any reason then this job should automatically start the container again from where the last trained model left
+
+##### Working on the task
+
+* Creating 2 Dockerfile containing all the requirements modules for 
+   - Traditional Machine Learning
+  
+ ![Dockerfile for ML](C:\Users\hp\Downloads\ml.png)
