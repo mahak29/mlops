@@ -25,7 +25,7 @@ import keras
 img_rows = x_train[0].shape[0]
 img_cols = x_train[1].shape[0]
 
-# Getting our date in the right 'shape' needed for Keras
+# Getting our date in the right 'shape' needed for Keras.
 # We need to add a 4th dimenion to our date thereby changing our
 # Our original image shape of (60000,28,28) to (60000,28,28,1)
 x_train = x_train.reshape(x_train.shape[0], img_rows, img_cols, 1)
